@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>Hello lesson 1</H1>
+
+
+    <script>
+// - Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+let a = 'hello';
+let b = 'owu';
+let c = 'com';
+let d = 'ua';
+let e = 1;
+let f = 10;
+let g = -999;
+let h = 123;
+let i = 3.14;
+let j = true;
+let k = false;
+//   Вивести кожну змінну за допомогою: console.log , alert, document.write
+console.log (a); 
+console.log (b);
+console.log (c);
+console.log (d);
+console.log (e);
+console.log (f);
+console.log (g);
+console.log (h);
+console.log (i);
+console.log (j);
+console.log (k);
+
+// alert (a);
+// alert (b);
+// alert(c);
+// alert (d);
+// alert (e);
+// alert (f);
+// alert (g);
+// alert (h);
+// alert (i);
+// alert (j);
+// alert (k);
+
+
+document.write (a);
+document.write (b);
+document.write(c);
+document.write (d);
+document.write (e);
+document.write (f);
+document.write (g);
+document.write (h);
+document.write (i);
+document.write (j);
+document.write (k);
+
+// - Переприсвоїти кожну змінну з завдання вище на будь які довільні значення.
+//   Вивести кожну змінну за допомогою: console.log , alert, document.write
+
+// - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+//   Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
+// - Взяти змінні з завдання вище та зєднати їх в одну змінну (конкатинація).
+// let name = prompt('Імям');
+// let surname = prompt('По-Батькові');
+// let age = prompt('вік');
+// console.log("Вітаю" + " " + name + " " + surname + "." + " " + "Тобі" + " " + age + " " + "років");
+
+// - За допомогою prompt() отримати 3 числа. Привести їх до числа (Google "String to number JS"). Вивести їх в консоль.
+// let num1 = prompt('Введите число');
+// let num2 = prompt('Введите число');
+// let num3 = prompt('Введите число');
+// console.log(String(num1) + String(num2) + String(num3));
+
+// // - За допомогою prompt() отримати 4 числа. Привести їх до числа за допомогою paeseInt. Додати їх всі мож собою і результат вивести в консоль.
+// let num4 = prompt('Введите число');
+// let num5 = prompt('Введите число');
+// let num6 = prompt('Введите число');
+// let num7 = prompt('Введите число');
+// console.log(parseInt(num4)+parseInt(num5)+parseInt(num6)+parseInt(num7));
+
+// // - За допомогою prompt() отримати 3 числа з плаваючою точкою за допомогою parseFloat. 
+//   Просумувати їх. Отрманий результат записати в змінну result. Вивести цю змінну в консоль.
+// let num8 = prompt('Введите число');
+// let num9 = prompt('Введите число');
+// let num10 = prompt('Введите число');
+// let result = (parseFloat(num8)+parseFloat(num9)+parseFloat(num10));
+// console.log(result);
+
+
+// - За допомогою prompt() отримати 3 числа з плаваючою точкою. Заокруглити їх (Google "round number JS"). Просумувати їх між собою. Результат вивести в консоль.
+// let num11 = prompt('Введите число с точкой');
+// let num12 = prompt('Введите число с точкой');
+// let num13 = prompt('Введите число с точкой');
+// let result = (parseFloat(num11)+parseFloat(num12)+parseFloat(num13));
+// console.log(result);
+// console.log(Math.round(num11)+Math.round(num12)+Math.round(num13));
+
+// - За допомогою prompt() отримати 2 цілих числа.
+//   Перше число - це число яке будуть підносити до степеня. Друге число - це число яке являється степенню.
+//   За допомогою Math.pow (Google) піднести перше число в степінь другого числа.
+//   Example. Число 1 = 5. Число 2 = 2. Результат = 25 
+let num15 = prompt('Введите число');
+let num14 = prompt('Введите число');
+let pow = Math.pow(num15, num14);
+console.log(pow);
+
+// - За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+//   let a = 100; let b = '100'; let c = true;
+let p = 100;
+console.log(typeof p);
+
+let pp = '100';
+console.log(typeof pp);
+
+let ppp = true;
+console.log(typeof ppp);
+
+// - Поставет відповідний оператор в виразах що б вийшов відповідний результат.
+//   В однакових виразаї не використовувати однакові оператори!!!
+//     5 ? 6 -> true
+let qw = 5<6;
+console.log(qw);
+//     5 ? 6 -> false
+let ew = 5>6;
+console.log(ew);
+//     5 ? 6 -> false
+let ww = 5==6;
+console.log(ww);
+//     5 ? 6 -> false
+let aw = 5===6;
+console.log(aw);
+//     10 ? 10 -> true
+let aa = 10==10;
+console.log(aa);
+//     10 ? 10 -> true
+let ab = 10===10;
+console.log(ab);
+//     10 ? 10 -> false
+let ac = 10<10;
+console.log(ac);
+//     10 ? 10 -> false
+let ad = 10>10;
+console.log(ad);
+//     10 ? 10 -> false
+let ae = 10!=10;
+console.log(ae);
+//     123 ? '123' -> false
+let za = 123 < 123;
+console.log(za);
+//     123 ? '123' -> true
+let zz = 123 == 123;
+console.log(zz);
+
+    </script>
+
+</body>
+</html>
